@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Devoir à la maison</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <!--region HEADER-->
+    <header class="pb-4 pt-3 flex-column mx-auto flex-lg-row">
+        <div class="col-lg-9">
+            <img src="img/logo_msp_Part.png" width="365" height="73" alt="Logo de Mon-Service-Public">
+        </div>
+
+        <div role="search" id="recherche_conteneur" class="col-lg-3">
+            <form action="" method="get" class="d-inline-flex justify-content-lg-end justify-content-md-center w-100">
+                <input type="text" name="fullText" id="rechercheInput" value="Rechercher"
+                       title="Rechercher">
+                <input class="ms-3" type="submit" value="ok"
+                       title="Lancer la recherche" id="ok_recherche">
+            </form>
+        </div>
+    </header>
+    <!--endregion-->
+
+    <!--region NAVBAR-->
+    <nav>
+        <ul class="flex-column flex-lg-row">
+            <li>
+                <a href="" class="">Mon tableau de bord</a>
+                <ul>
+                    <li><a href="">Mes liaisons de comptes</a></li>
+                    <li><a href="">Mon calendrier</a></li>
+                    <li><a href="">Mon suivi</a></li>
+                </ul>
+                <span class="flecheActive"></span>
+            </li>
+            <li>
+                <a href="">Mes documents</a>
+                <ul>
+                    <li><a href="">Mon porte-documents</a></li>
+                    <li><a href="">Mon bloc-notes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Mon profil</a>
+                <ul>
+                    <li><a href="">Mes coordonnées</a></li>
+                    <li><a href="">Mes contacts</a></li>
+                    <li><a href="">Mes options</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Catalogue des services</a>
+                <ul>
+                    <li><a href="">Les démarches</a></li>
+                    <li><a href="">Les formulaires CERFA</a></li>
+                    <li><a href="">Les organismes partenaires</a></li>
+                    <li><a href="" target="_blank">L'annuaire de
+                        l'administration</a></li>
+                    <li><a href="" target="_blank">Le guide des droits et
+                        démarches</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!--endregion-->
+
+    <!--region BREADCRUMB-->
+    <ul class="breadcrumb">
+        <li><a href="-public.fr/portail/">Accueil</a></li>
+        <li>&nbsp;&gt;&nbsp;Mon tableau de bord</li>
+    </ul>
+    <!--endregion-->
+
+    <!--region MAIN-->
+    <section class="d-flex flex-column flex-lg-row">
+        <main class="col-lg-9">
+            <h1 class="text-center text-md-start ps-0 ps-md-5">Mon tableau de bord</h1>
+            <div class="summary">
+                Découvrez ci-dessous ce que vous pouvez faire dans la rubrique « Mon tableau de bord ».
+            </div>
+            <div class="d-flex flex-lg-row flex-column px-2 mt-2 pt-2">
+                <div class="col-lg-4">
+                    <a href="">
+                        <img src="img/402_429_Liaisons.JPG" alt="Lien internet quelconque">
+                        Mes liaisons de comptes
+                    </a>
+                    <ul>
+                        <li>Accédez d'un clic à vos comptes administratifs sans ressaisir vos identifiants et mots de
+                            passe.
+                        </li>
+                        <li>Gérez vos liaisons de comptes.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <a href="">
+                        <img src="img/605_403_418_picto_agenda.gif" alt="Calendrier">
+                        Mon calendrier
+                    </a>
+                    <ul>
+                        <li>Notez et visualisez toutes vos échéances administratives.</li>
+                        <li>Recevez des alertes par courriel pour vos rappels d'échéances.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <a href="">
+                        <img src="img/401_430_suivi.jpg" alt="Homme travaillant sur son ordinateur">
+                        Mon suivi
+                    </a>
+                    <ul>
+                        <li>Suivez l'avancement de vos démarches en ligne.</li>
+                        <li>Consultez les messages envoyés.</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <aside class="col-lg-3 mt-2 mt-lg-0 ps-lg-1">
+            <div class="mb-lg-3">
+                <h3 class="text-center text-md-start ps-0 ps-md-5">LES ASTUCES</h3>
+                <ul class="px-2 pt-2">
+                    <li>
+                        <a href="" target="_self"
+                           title="Lien vers Accédez depuis mon.service-public.fr à une nouvelle génération de démarches en ligne">
+                            Accédez depuis mon.service-public.fr à une nouvelle génération de démarches en ligne
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-end pe-2"><a href="">Toutes les astuces</a></div>
+            </div>
+            <div class="mt-2 mb-3">
+                <h3 class="text-center text-md-start ps-0 ps-md-5">Les actualités</h3>
+                <ul class="px-2 pt-2">
+                    <li>
+                        <a href="" title="Lien vers Votre avis nous intéresse…">
+                            <span class="date">22/10/2012</span>
+                            Que pensez-vous de MSP ?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="Lien vers Une nouvelle démarche dans le Tarn">
+                            <span class="date">10/10/2012</span>
+                            Le Conseil général du Tarn vient de déployer, une nouvelle téléprocédure.
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="Lien vers Déclarez en ligne le décès d'un proche ">
+                            <span class="date">30/07/2012</span>
+                            Une nouvelle démarche en ligne sur MSP
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""
+                           title="Lien vers Pour les départements numérotés de 50 à 974 il ne vous reste que quelques jours pour télé-déclarer vos revenus">
+                            <span class="date">15/06/2012</span>
+                            Accédez à votre déclaration de revenus depuis MSP
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-end pe-2"><a href="">Toutes les actualités</a></div>
+            </div>
+        </aside>
+    </section>
+    <!--endregion-->
+
+    <!--region FOOTER-->
+    <footer>
+        <div class="pt-3">
+            <ul class="flex-row flex-wrap gap-2 justify-content-center justify-content-sm-start ps-0 ps-sm-4">
+                <li class="col-12 col-sm-auto text-center text-sm-start">
+                    <span>
+                        <a href="" target="_blank">
+                            <img src="img/logo-ojd.png" alt="logo du OJD">
+                        </a>
+                    </span>
+                </li>
+                <li class="col-sm-2 col-5  ms-sm-0">
+                    <p>Assistance et contact</p>
+                    <ul>
+                        <li><a href="" target="_self"><span title="">Plan du site</span></a></li>
+                        <li><a href="" target="_self"><span title="">Contact</span></a></li>
+                        <li><a href="" target="_self"><span title="">Aide</span></a></li>
+                        <li><a href="" target="_self"><span title="">Questions fréquentes</span></a></li>
+                    </ul>
+                </li>
+                <li class="col-sm-2 col-5  ms-sm-0">
+                    <p>Informations légales</p>
+                    <ul>
+                        <li><a href=""><span title="">Mentions légales</span></a></li>
+                        <li><a href="" target="_self"><span title="">Conditions générales d'utilisation</span></a></li>
+                        <li>
+                            <a href="" target="_blank">
+                                <span title="Répertoire des informations publiques - Nouvelle fenêtre">Répertoire des informations publiques</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-sm-2 col-5  ms-sm-0">
+                    <p>Qualité de service</p>
+                    <ul>
+                        <li><a href=""><span title="">Accessibilité</span></a></li>
+                        <li><a href=""><span title="">Sécurité</span></a></li>
+                        <li><a href=""><span title="">Engagement qualité</span></a></li>
+                        <li><a href=""><span title="">Statistiques</span></a></li>
+                    </ul>
+                </li>
+                <li class="col-sm-2 col-5 ms-sm-0">
+                    <p>Partenariat</p>
+                    <ul>
+                        <li><a href=""><span title="">Nos organismes partenaires</span></a></li>
+                        <li><a href=""><span title="">Devenir partenaire ?</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a target="_blank" href="">Tous droits réservés - Direction Générale de Modernisation de l'État - 2012</a>
+            |
+            <a title="A propos du site" href="">À propos de mon.service-public.fr</a>
+        </div>
+    </footer>
+    <!--endregion-->
+</div>
+</body>
+</html>
