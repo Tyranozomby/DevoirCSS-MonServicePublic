@@ -3,12 +3,13 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  font-family: arial, sans-serif;
 }
 
 header {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(to bottom, #ebf1f8, #fff, #f2f6fa);
+  background: linear-gradient(to bottom, #F8FBFD, #fff, #FAFBFD);
 }
 header form {
   margin-top: 2rem;
@@ -58,13 +59,13 @@ nav > ul a {
 nav > ul > li {
   flex: 1;
   border-bottom: 1px #0f5e97 solid;
+  background: linear-gradient(180deg, rgb(211, 222, 231) 0%, rgb(248, 249, 251) 25%, rgb(248, 249, 251) 50%, rgb(202, 219, 229) 100%);
 }
 nav > ul > li > a {
   display: block;
   line-height: 2.5rem;
   font-size: 1.1rem;
   text-align: center;
-  background: linear-gradient(180deg, rgb(211, 222, 231) 0%, rgb(248, 249, 251) 25%, rgb(248, 249, 251) 50%, rgb(202, 219, 229) 100%);
 }
 nav > ul li {
   position: relative;
@@ -115,91 +116,89 @@ nav > ul li:hover > ul {
   font-weight: 600;
 }
 
-section {
+main {
   --sectionBlue: #0e5f96;
   --sectionBaseColor: #535353;
   --sectionRed: #9c2f03;
   --sectionBackground: #f1f6f8;
 }
-section h1, section h3 {
+main h1, main h3 {
   color: white;
   background-color: var(--sectionBlue);
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
 }
-section h1 {
+main h1 {
   font-size: 16px;
-  padding-bottom: 2px;
 }
-section h3 {
+main h3 {
   font-size: 13px;
-  padding-bottom: 4px;
 }
-section ul {
+main ul {
   padding: 0.5rem 0 0;
 }
-section ul li {
+main ul li {
   margin-top: 0.5rem;
   list-style: none;
   font-size: 12px;
   color: var(--sectionBaseColor);
 }
-section a {
-  color: #0066cc;
+main a {
+  color: #0a6acd;
   text-decoration: none;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: bold;
 }
-section a > img {
+main a > img {
   margin-right: 0.5rem;
   width: 60px;
   height: 60px;
 }
-section main, section aside > div {
+main section {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 0 0 #DADADA;
 }
-section main {
+main > section {
   height: 100%;
 }
-section main > div {
+main > section > div {
   background-color: var(--sectionBackground);
 }
-section main > div.summary {
+main > section > div.summary {
   color: var(--sectionBlue);
   background-color: white;
-  font-weight: 500;
+  font-weight: bold;
 }
-section main > div > div {
+main > section > div > div {
   padding-right: 1rem;
 }
-section aside > div {
+main aside > section {
   background-color: var(--sectionBackground);
 }
-section aside > div a {
+main aside > section a {
   color: var(--sectionBaseColor);
   font-size: 12px;
   font-weight: normal;
 }
-section aside > div span.date {
+main aside > section span.date {
   color: var(--sectionRed);
-  font-weight: 500;
+  font-weight: bold;
 }
-section aside > div:nth-child(even) h3 {
+main aside > section:nth-child(even) h3 {
   background-color: var(--sectionRed);
 }
-section aside > div:nth-child(even) div > a {
+main aside > section:nth-child(even) div > a {
   color: var(--sectionRed);
 }
-section aside > div:nth-child(odd) h3 {
+main aside > section:nth-child(odd) h3 {
   background-color: var(--sectionBlue);
 }
-section aside > div:nth-child(odd) div > a {
+main aside > section:nth-child(odd) div > a {
   color: var(--sectionBlue);
 }
-section aside > div > div > a {
-  font-weight: 500;
+main aside > section > div > a {
+  font-weight: bold;
 }
 
 footer {
@@ -214,7 +213,7 @@ footer > div:first-child > ul {
 }
 footer > div:first-child > ul > li {
   list-style: none;
-  font-weight: 500;
+  font-weight: bold;
 }
 footer > div:first-child > ul > li p {
   margin-left: 1rem;
@@ -232,7 +231,7 @@ footer > div:last-child {
   background-color: #00327b;
   text-align: center;
   color: #042352;
-  font-weight: 500;
+  font-weight: bold;
 }
 footer > div:last-child a {
   line-height: 2rem;
